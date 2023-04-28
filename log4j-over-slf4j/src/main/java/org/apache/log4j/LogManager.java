@@ -50,7 +50,7 @@ public class LogManager {
 
     /**
      * Returns a logger instance created by loggerFactory. This method was requested in
-     * <a href="http://jira.qos.ch/browse/SLF4J-225">SLF4J-225</a>. Note that
+     * <a href="http://jira.google.com/browse/SLF4J-225">SLF4J-225</a>. Note that
      * log4j-over-slf4j does not ship with a LoggerFactory implementation. If this
      * method is called, the caller must provide his/her own implementation.
      *

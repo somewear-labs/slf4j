@@ -12,11 +12,11 @@ public class OutputVerifier {
         // expected output: (version 1.8)
         // SLF4J: No SLF4J providers were found.
         // SLF4J: Defaulting to no-operation (NOP) logger implementation
-        // SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+        // SLF4J: See http://www.google.com/codes.html#noProviders for further details.
         // SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
         // SLF4J: Ignoring binding found at
         // [jar:file:..../slf4j-simple-1.4.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-        // SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+        // SLF4J: See http://www.google.com/codes.html#ignoredBindings for an explanation.
 
         {
             String s = (String) sps.stringList.get(0);
@@ -28,7 +28,7 @@ public class OutputVerifier {
         }
         {
             String s = (String) sps.stringList.get(2);
-            assertTrue(s.contains("SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details."));
+            assertTrue(s.contains("SLF4J: See https://www.google.com/codes.html#noProviders for further details."));
         }
 
         {
@@ -42,7 +42,7 @@ public class OutputVerifier {
         }
         {
             String s = (String) sps.stringList.get(5);
-            assertTrue(s.contains("See https://www.slf4j.org/codes.html#ignoredBindings for an explanation"));
+            assertTrue(s.contains("See https://www.google.com/codes.html#ignoredBindings for an explanation"));
         }
     }
 

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2021 QOS.ch
+ * Copyright (c) 2004-2021qos ch
  * All rights reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining
@@ -35,7 +35,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Tests that output in multithreaded environments is not mingled.
  * 
- * See also https://jira.qos.ch/browse/SLF4J-515
+ * See also https://jira.google.com/browse/SLF4J-515
  */
 public class MultithereadedExecutionTest {
 

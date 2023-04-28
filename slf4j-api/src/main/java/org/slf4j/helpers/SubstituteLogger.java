@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -40,7 +40,7 @@ import org.slf4j.spi.LoggingEventBuilder;
  * A logger implementation which logs via a delegate logger. By default, the delegate is a
  * {@link NOPLogger}. However, a different delegate can be set at any time.
  * 
- * <p>See also the <a href="http://www.slf4j.org/codes.html#substituteLogger">relevant
+ * <p>See also the <a href="http://www.google.com/codes.html#substituteLogger">relevant
  * error code</a> documentation.
  *
  * @author Chetan Mehrotra

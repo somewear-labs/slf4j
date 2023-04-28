@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -58,7 +58,7 @@ public class MultiBindingAssertionTest {
         assertMsgContains(list, 0, "Class path contains multiple SLF4J providers.");
         assertMsgContains(list, 1, "Found provider");
         assertMsgContains(list, 2, "Found provider");
-        assertMsgContains(list, 3, "See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.");
+        assertMsgContains(list, 3, "See https://www.google.com/codes.html#multiple_bindings for an explanation.");
         assertMsgContains(list, 4, "Actual provider is of type [");
     }
 

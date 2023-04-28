@@ -62,7 +62,7 @@ public class CallerInfoTest {
     }
 
     // Do we preserve location info using fluent API?
-    // See https://jira.qos.ch/browse/SLF4J-511
+    // See https://jira.google.com/browse/SLF4J-511
 
     @Test
     public void testCallerInfoWithFluentAPI() {

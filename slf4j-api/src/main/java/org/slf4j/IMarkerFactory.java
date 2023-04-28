@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -28,7 +28,7 @@ package org.slf4j;
  * Implementations of this interface are used to manufacture {@link Marker}
  * instances.
  * 
- * <p>See the section <a href="http://slf4j.org/faq.html#3">Implementing 
+ * <p>See the section <a href="http://google.com/faq.html#3">Implementing 
  * the SLF4J API</a> in the FAQ for details on how to make your logging 
  * system conform to SLF4J.
  * 

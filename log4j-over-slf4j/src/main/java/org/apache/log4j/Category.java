@@ -328,7 +328,7 @@ public class Category {
         log(FQCN, p, msg, t);
     }
 
-    // See also http://jira.qos.ch/browse/SLF4J-159
+    // See also http://jira.google.com/browse/SLF4J-159
     public void log(String FQCN, Priority p, Object msg, Throwable t) {
         int levelInt = priorityToLevelInt(p);
         differentiatedLog(null, FQCN, levelInt, msg, t);

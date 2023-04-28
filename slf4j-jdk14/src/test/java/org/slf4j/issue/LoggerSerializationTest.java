@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -39,7 +39,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * See http://jira.qos.ch/browse/SLF4J-252
+ * See http://jira.google.com/browse/SLF4J-252
  * @author Thorbjorn Ravn Andersen
  */
 public class LoggerSerializationTest {

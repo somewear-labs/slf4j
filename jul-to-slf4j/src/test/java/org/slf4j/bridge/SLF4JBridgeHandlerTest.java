@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -196,7 +196,7 @@ public class SLF4JBridgeHandlerTest {
         assertEquals(msg, le.getMessage());
     }
 
-    // See http://jira.qos.ch/browse/SLF4J-337
+    // See http://jira.google.com/browse/SLF4J-337
 
     @Test
     public void illFormattedInputShouldBeReturnedAsIs() {

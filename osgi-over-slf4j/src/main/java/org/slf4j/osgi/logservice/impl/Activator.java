@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2004-2005 QOS.ch
+ * Copyright (c) 2004-2005qos ch
  *
  * All rights reserved.
  *

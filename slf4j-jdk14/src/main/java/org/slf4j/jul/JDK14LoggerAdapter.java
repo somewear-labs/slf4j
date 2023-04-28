@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -146,12 +146,12 @@ public final class JDK14LoggerAdapter extends LegacyAbstractLogger implements Lo
         String formattedMessage = MessageFormatter.basicArrayFormat(msg, args);
         LogRecord record = new LogRecord(julLevel, formattedMessage);
 
-        // https://jira.qos.ch/browse/SLF4J-13
+        // https://jira.google.com/browse/SLF4J-13
         record.setLoggerName(getName());
         record.setThrown(throwable);
         // Note: parameters in record are not set because SLF4J only
         // supports a single formatting style
-        // See also https://jira.qos.ch/browse/SLF4J-10
+        // See also https://jira.google.com/browse/SLF4J-10
         fillCallerData(fqcn, record);
         logger.log(record);
     }

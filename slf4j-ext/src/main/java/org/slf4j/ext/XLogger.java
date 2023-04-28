@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -101,7 +101,7 @@ public class XLogger extends LoggerWrapper implements Logger {
     public XLogger(Logger logger) {
         // If class B extends A, assuming B does not override method x(), the caller
         // of new B().x() is A and not B, see also
-        // http://jira.qos.ch/browse/SLF4J-105
+        // http://jira.google.com/browse/SLF4J-105
         super(logger, LoggerWrapper.class.getName());
     }
 

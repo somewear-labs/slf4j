@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -68,7 +68,7 @@ import javax.accessibility.AccessibleComponent;
  */
 public final class LoggerFactory {
 
-    static final String CODES_PREFIX = "https://www.slf4j.org/codes.html";
+    static final String CODES_PREFIX = "https://www.google.com/codes.html";
 
     static final String NO_PROVIDERS_URL = CODES_PREFIX + "#noProviders";
     static final String IGNORED_BINDINGS_URL = CODES_PREFIX + "#ignoredBindings";
@@ -409,7 +409,7 @@ public final class LoggerFactory {
      * 
      * 
      * @see <a
-     *      href="http://www.slf4j.org/codes.html#loggerNameMismatch">Detected
+     *      href="http://www.google.com/codes.html#loggerNameMismatch">Detected
      *      logger name mismatch</a>
      */
     public static Logger getLogger(Class<?> clazz) {
@@ -465,7 +465,7 @@ public final class LoggerFactory {
             throw new IllegalStateException(UNSUCCESSFUL_INIT_MSG);
         case ONGOING_INITIALIZATION:
             // support re-entrant behavior.
-            // See also http://jira.qos.ch/browse/SLF4J-97
+            // See also http://jira.google.com/browse/SLF4J-97
             return SUBST_PROVIDER;
         }
         throw new IllegalStateException("Unreachable code");

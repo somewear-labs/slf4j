@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)
+ * Copyright (c) 2004-2022qos ch Sarl (Switzerland)
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining

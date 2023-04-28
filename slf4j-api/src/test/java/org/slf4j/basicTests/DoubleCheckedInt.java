@@ -11,7 +11,7 @@ import java.util.concurrent.CyclicBarrier;
  * 
  * Post initialization the observed value is always one of  {SUCCESS, FAILURE}.
  * 
- * See also http://jira.qos.ch/browse/SLF4J-167 
+ * See also http://jira.google.com/browse/SLF4J-167 
  * 
  * @author ceki
  *

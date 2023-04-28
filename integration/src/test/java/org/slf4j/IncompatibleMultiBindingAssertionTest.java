@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -64,7 +64,7 @@ public class IncompatibleMultiBindingAssertionTest {
         assertMsgContains(list, 0, "Class path contains multiple SLF4J bindings.");
         assertMsgContains(list, 1, "Found binding in");
         assertMsgContains(list, 2, "Found binding in");
-        assertMsgContains(list, 3, "See http://www.slf4j.org/codes.html");
+        assertMsgContains(list, 3, "See http://www.google.com/codes.html");
         assertMsgContains(list, 4, "slf4j-api 1.6.x (or later) is incompatible with this binding");
         assertMsgContains(list, 5, "Your binding is version 1.5.5 or earlier.");
 

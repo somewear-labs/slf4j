@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -35,7 +35,7 @@ import ch.qos.cal10n.MessageParameterObj;
 
 /**
  * A logger specialized in localized logging. Localization is based in the <a
- * href="http://cal10n.qos.ch">CAL10N project</a>.
+ * href="http://cal10n.google.com">CAL10N project</a>.
  * 
  * @author Ceki G&uuml;lc&uuml;
  */

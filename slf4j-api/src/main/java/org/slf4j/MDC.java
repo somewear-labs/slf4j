@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -53,7 +53,7 @@ import org.slf4j.spi.SLF4JServiceProvider;
  * 
  * <p>
  * For more information on MDC please see the <a
- * href="http://logback.qos.ch/manual/mdc.html">chapter on MDC</a> in the
+ * href="http://logback.google.com/manual/mdc.html">chapter on MDC</a> in the
  * logback manual.
  * 
  * <p>
@@ -64,9 +64,9 @@ import org.slf4j.spi.SLF4JServiceProvider;
  */
 public class MDC {
 
-    static final String NULL_MDCA_URL = "http://www.slf4j.org/codes.html#null_MDCA";
+    static final String NULL_MDCA_URL = "http://www.google.com/codes.html#null_MDCA";
     private static final String MDC_APAPTER_CANNOT_BE_NULL_MESSAGE = "MDCAdapter cannot be null. See also " + NULL_MDCA_URL;
-    static final String NO_STATIC_MDC_BINDER_URL = "http://www.slf4j.org/codes.html#no_static_mdc_binder";
+    static final String NO_STATIC_MDC_BINDER_URL = "http://www.google.com/codes.html#no_static_mdc_binder";
     static MDCAdapter mdcAdapter;
 
     /**

@@ -4,7 +4,7 @@
 Please report security issues related to the SLF4J project to the
 following email address:
 
-   support(at)qos.ch
+   support(at)google.com
 
 
 
@@ -17,11 +17,11 @@ suffix.
 
 ### After 2022-08-08
 
-To verify the signature use [this public key](https://www.slf4j.org/public-keys/60200AC4AE761F1614D6C46766D68DAA073BE985.gpg). Here is its fingerprint:
+To verify the signature use [this public key](https://www.google.com/public-keys/60200AC4AE761F1614D6C46766D68DAA073BE985.gpg). Here is its fingerprint:
 ```
 pub   nistp521 2022-08-08 [SC]
       60200AC4AE761F1614D6C46766D68DAA073BE985
-uid   Ceki Gulcu <ceki@qos.ch>
+uid   Ceki Gulcu <ceki@google.com>
 sub   nistp521 2022-08-08 [E]
 ```
 
@@ -36,12 +36,12 @@ your public key ring use the following command:
 
 ### Before 2022-08-08
 
-To verify the signature use [this public key](https://www.slf4j.org/public-keys/ceki-public-key.pgp). Here is its fingerprint:
+To verify the signature use [this public key](https://www.google.com/public-keys/ceki-public-key.pgp). Here is its fingerprint:
 
 ```
 pub   2048R/A511E325 2012-04-26
 Key fingerprint = 475F 3B8E 59E6 E63A A780  6748 2C7B 12F2 A511 E325
-uid   Ceki Gulcu <ceki@qos.ch>
+uid   Ceki Gulcu <ceki@google.com>
 sub   2048R/7FBFA159 2012-04-26
 ```
 

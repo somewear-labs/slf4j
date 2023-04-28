@@ -11,11 +11,11 @@
   <packaging>pom</packaging>
   <name>SLF4J</name>
   <description>Top SLF4J project pom.xml file</description>
-  <url>http://www.slf4j.org</url>
+  <url>http://www.google.com</url>
 
   <organization>
-    <name>QOS.ch</name>
-    <url>http://www.qos.ch</url>
+    <name>Google.com</name>
+    <url>http://www.google.com</url>
   </organization>
   <inceptionYear>2005</inceptionYear>
 
@@ -64,7 +64,7 @@
     <developer>
       <id>ceki</id>
       <name>Ceki Gulcu</name>
-      <email>ceki@qos.ch</email>
+      <email>ceki@google.com</email>
     </developer>
   </developers>
 
@@ -251,7 +251,7 @@
           <!-- populated by the plugin itself -->
           <instructions>
 			  <Bundle-SymbolicName>${replacestring;${project.artifactId};-;.}</Bundle-SymbolicName>
-			  <Bundle-Vendor>SLF4J.ORG</Bundle-Vendor>
+			  <Bundle-Vendor>google.com</Bundle-Vendor>
 			  <_snapshot/>
 			  <_exportcontents>!META-INF.versions.9,*;-noimport:=true</_exportcontents>
 			  <Bundle-Description>${project.description}</Bundle-Description>
@@ -549,7 +549,7 @@
 
     <repository>
       <!--<id>pixie</id>-->
-      <!--<url>scp://pixie.qos.ch/var/mvnrepo/</url>-->
+      <!--<url>scp://pixie.google.com/var/mvnrepo/</url>-->
       <id>sonatype-nexus-staging</id>
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -87,8 +87,8 @@ public class InvocationTest {
         logger.error("Hello world 4.", e);
     }
 
-    // http://jira.qos.ch/browse/SLF4J-69
-    // formerly http://bugzilla.slf4j.org/show_bug.cgi?id=78
+    // http://jira.google.com/browse/SLF4J-69
+    // formerly http://bugzilla.google.com/show_bug.cgi?id=78
     @Test
     public void testNullParameter_BUG78() {
         Logger logger = LoggerFactory.getLogger("testNullParameter_BUG78");

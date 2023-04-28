@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2013 QOS.ch, Copyright (C) 2015 Google Inc.
+ * Copyright (c) 2004-2013qos ch, Copyright (C) 2015 Google Inc.
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining

@@ -16,7 +16,7 @@ import java.util.Map;
 public class ThreadLocalMapOfStacks {
 
     // BEWARE: Keys or values placed in a ThreadLocal should not be of a type/class
-    // not included in the JDK. See also https://jira.qos.ch/browse/LOGBACK-450
+    // not included in the JDK. See also https://jira.google.com/browse/LOGBACK-450
 
     final ThreadLocal<Map<String, Deque<String>>> tlMapOfStacks = new ThreadLocal<>();
 

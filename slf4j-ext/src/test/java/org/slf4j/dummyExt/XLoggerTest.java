@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -126,8 +126,8 @@ public class XLoggerTest {
         verifyWithLevelAndException(listAppender.list.get(1), XLogger.Level.DEBUG, "catching", t);
     }
 
-    // See http://jira.qos.ch/browse/SLF4J-105
-    // formerly http://bugzilla.slf4j.org/show_bug.cgi?id=114
+    // See http://jira.google.com/browse/SLF4J-105
+    // formerly http://bugzilla.google.com/show_bug.cgi?id=114
     @Test
     public void testLocationExtraction_Bug114() {
         XLogger logger = XLoggerFactory.getXLogger("UnitTest");

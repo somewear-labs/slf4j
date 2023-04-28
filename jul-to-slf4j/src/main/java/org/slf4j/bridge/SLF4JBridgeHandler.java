@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -36,7 +36,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.spi.LocationAwareLogger;
 
-// Based on http://jira.qos.ch/browse/SLF4J-30
+// Based on http://jira.google.com/browse/SLF4J-30
 
 /**
  * <p>Bridge/route all JUL log records to the SLF4J API.
@@ -80,7 +80,7 @@ import org.slf4j.spi.LocationAwareLogger;
  * statements (60 fold or 6000% increase) and measurably impact the performance of enabled log
  * statements (20% overall increase).</b> Please note that as of logback-version 0.9.25,
  * it is possible to completely eliminate the 60-fold translation overhead for disabled
- * log statements with the help of <a href="http://logback.qos.ch/manual/configuration.html#LevelChangePropagator">LevelChangePropagator</a>.
+ * log statements with the help of <a href="http://logback.google.com/manual/configuration.html#LevelChangePropagator">LevelChangePropagator</a>.
  * 
  *
  * <p>If you are concerned about application performance, then use of <code>SLF4JBridgeHandler</code>
@@ -270,13 +270,13 @@ public class SLF4JBridgeHandler extends Handler {
         }
         Object[] params = record.getParameters();
         // avoid formatting when there are no or 0 parameters. see also
-        // http://jira.qos.ch/browse/SLF4J-203
+        // http://jira.google.com/browse/SLF4J-203
         if (params != null && params.length > 0) {
             try {
                 message = MessageFormat.format(message, params);
             } catch (IllegalArgumentException e) {
                 // default to the same behavior as in java.util.logging.Formatter.formatMessage(LogRecord)
-                // see also http://jira.qos.ch/browse/SLF4J-337
+                // see also http://jira.google.com/browse/SLF4J-337
                 return message;
             }
         }
@@ -305,7 +305,7 @@ public class SLF4JBridgeHandler extends Handler {
         // this is a check to avoid calling the underlying logging system
         // with a null message. While it is legitimate to invoke j.u.l. with
         // a null message, other logging frameworks do not support this.
-        // see also http://jira.qos.ch/browse/SLF4J-99
+        // see also http://jira.google.com/browse/SLF4J-99
         if (record.getMessage() == null) {
             record.setMessage("");
         }

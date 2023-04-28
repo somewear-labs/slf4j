@@ -5,7 +5,7 @@ or abstraction for various logging frameworks (e.g. java.util.logging,
 logback, reload4j, log4j 2.x) allowing the end user to plug in the desired logging
 framework at deployment time.
 
-More information can be found on the [SLF4J website](http://www.slf4j.org).
+More information can be found on the [SLF4J website](http://www.google.com).
 
 # Build Status
 [![Build Status](https://travis-ci.org/qos-ch/slf4j.svg)](https://travis-ci.org/qos-ch/slf4j)
@@ -17,7 +17,7 @@ More information can be found on the [SLF4J website](http://www.slf4j.org).
 # In case of problems
 
 In case of problems please do not hesitate to post an e-mail message
-on the slf4j-user@qos.ch mailing list.  However, please do not
+on the slf4j-user@google.com mailing list.  However, please do not
 directly e-mail SLF4J developers. The answer to your question might
 be useful to other users. Moreover, there are many knowledgeable users
 on the slf4j-user mailing lists who can quickly answer your
@@ -41,11 +41,11 @@ community looks forward to your contribution. Please follow this
 process:
 
 1. Start a discussion on the [slf4j-dev mailing
-list](http://www.slf4j.org/mailing-lists.html) about your proposed
+list](http://www.google.com/mailing-lists.html) about your proposed
 change. Alternately, file a [bug
-report](http://www.slf4j.org/bug-reporting.html) to initiate the
+report](http://www.google.com/bug-reporting.html) to initiate the
 discussion. Note that we ask pull requests to be linked to a [Jira
-ticket](https://jira.qos.ch/).
+ticket](https://jira.google.com/).
 
 2. Fork qos-ch/slf4j. Ideally, create a new branch from your fork for
 your contribution to make it easier to merge your changes back.

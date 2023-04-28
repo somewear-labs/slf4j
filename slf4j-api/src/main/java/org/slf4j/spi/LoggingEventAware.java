@@ -13,7 +13,7 @@ import org.slf4j.event.LoggingEvent;
  * required to do so. In other words, {@link #log(LoggingEvent)} method is free to assume that
  * the event was filtered beforehand and no further filtering needs to occur in the method itself.</p>
  *
- * See also https://jira.qos.ch/browse/SLF4J-575
+ * See also https://jira.google.com/browse/SLF4J-575
  *
  * @author Ceki Gulcu
  * @since 2.0.0

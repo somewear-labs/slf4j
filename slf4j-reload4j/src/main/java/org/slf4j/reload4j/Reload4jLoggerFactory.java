@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2004-2011 QOS.ch
+ * Copyright (c) 2004-2011 QOS ch
  * All rights reserved.
  *
  * Permission is hereby granted, free  of charge, to any person obtaining
@@ -40,7 +40,7 @@ import org.slf4j.helpers.Util;
  */
 public class Reload4jLoggerFactory implements ILoggerFactory {
 
-    private static final String LOG4J_DELEGATION_LOOP_URL = "http://www.slf4j.org/codes.html#log4jDelegationLoop";
+    private static final String LOG4J_DELEGATION_LOOP_URL = "http://www.google.com/codes.html#log4jDelegationLoop";
 
     // check for delegation loops
     static {
